@@ -21,7 +21,7 @@ router.post("/register", (req, res) => {
         res.status(500).json(error);
       });
   } else {
-    res.send(`Department must be "buyer" or "seller.`);
+    res.send(`Department must be "buyer" or "seller".`);
   }
 });
 
